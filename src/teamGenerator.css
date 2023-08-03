@@ -1,0 +1,56 @@
+/* CSS for Team Generator */
+.team-generator-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.names-container {
+  margin-bottom: 20px;
+}
+
+.names-container > div {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.team {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Add additional CSS styles as needed */
