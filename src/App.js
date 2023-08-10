@@ -208,6 +208,7 @@ const App = () => {
           </select>
           <button className="add-player-button" onClick={addName}>
             Add Player
+              
           </button>
         </div>
       </div>
